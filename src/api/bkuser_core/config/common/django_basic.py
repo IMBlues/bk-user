@@ -10,7 +10,7 @@ specific language governing permissions and limitations under the License.
 """
 import os
 
-from . import PROJECT_ROOT, env
+from . import PROJECT_ROOT
 
 # only for django itself(internal hashes), not a specific identity
 SECRET_KEY = "Zfljnbga5QYVqNpOXLwhfGQLplZHHj3FuQWdAcaqTiDrDUfsTS"
