@@ -66,8 +66,8 @@ class DataSourcePlugin:
     def register(self):
         """注册插件"""
         register_plugin(self)
-        if self.settings_path is not None:
-            self.load_settings_from_yaml()
+        # if self.settings_path is not None:
+        #     self.load_settings_from_yaml()
 
     def init_settings(self, setting_meta_key: str, meta_info: dict):
         namespace = meta_info.pop("namespace", "general")
